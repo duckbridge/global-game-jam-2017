@@ -40,7 +40,7 @@ public class ScreenshotSaveComponent : MonoBehaviour {
 
         string fullScreenshotPath = GameSettings.GetScreenShotFolderForCurrentSlot() + name + ".png";
         
-        Application.CaptureScreenshot(fullScreenshotPath);
+        ScreenCapture.CaptureScreenshot(fullScreenshotPath);
 
         XmlSerializer serializer = new 
             XmlSerializer(typeof(SerializableScreenShotDataSummary));
