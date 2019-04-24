@@ -1,0 +1,6 @@
+﻿public enum SpawnType {
+	NORMAL,
+	TELEPORTED,
+	ATMINIDUNGEON,
+	ATGAMECONSOLE,
+}
